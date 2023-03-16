@@ -80,6 +80,7 @@ const Right = styled.div`
   /* background-color: #f9a826; */
   @media only screen and (max-width: 768px) {
     display: flex;
+    width: 100vw;
   }
 ` 
 const Img = styled.img`

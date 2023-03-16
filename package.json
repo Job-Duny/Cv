@@ -6,8 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "serve": "vite preview",
-    "start": "node src/main.jsx",
     "preview": "vite preview"
   },
   "dependencies": {
