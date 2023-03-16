@@ -5,8 +5,8 @@ import mooni from '../img/mooni.png'
 import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import { Cube } from './Cube'
-import CV_En from '../PinaMartinezGaelJob_Cv_En.pdf'
-import CV_Es from '../PinaMartinezGaelJob_Cv_Es.pdf'
+import CV_En from '../docs/PinaMartinezGaelJob_CV_En.pdf'
+import CV_Es from '../docs/PinaMartinezGaelJob_Cv_Es.pdf'
 
 const Section = styled.div`
   height: 100vh;
