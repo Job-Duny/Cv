@@ -5,6 +5,8 @@ import mooni from '../img/mooni.png'
 import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import { Cube } from './Cube'
+import CV_En from './docs/PinaMartinezGaelJob_Cv_Es.pdf'
+import CV_Es from './docs/PinaMartinezGaelJob_Cv_Es.pdf'
 
 const Section = styled.div`
   height: 100vh;
@@ -107,10 +109,10 @@ export const Me = () => {
           </Desc>
 
           <span>
-            <a href="https://drive.google.com/file/d/1SVRys7ysyZddXguNsEfSUEzu52hH1qH7/view?usp=sharing" >
+            <a href={CV_Es} >
               <Button> look my  CV (Es)</Button>
             </a>
-            <a href="https://drive.google.com/file/d/1DEXpqFl40IPU9SsGWMMWYdEkkGCvAVlM/view?usp=sharing" >
+            <a href={CV_En} download>
               <Button> look my  CV (En)</Button>
             </a>
           </span>
