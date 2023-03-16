@@ -79,8 +79,7 @@ const Right = styled.div`
   position: relative;
   /* background-color: #f9a826; */
   @media only screen and (max-width: 768px) {
-    display: flex;
-    width: 100vw;
+    display: none;
   }
 ` 
 const Img = styled.img`
