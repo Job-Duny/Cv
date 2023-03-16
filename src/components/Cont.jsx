@@ -74,7 +74,7 @@ const Button = styled.button`
   border-radius: 5px;
 `
 
-export const Contact = () => {
+export const Cont = () => {
 
   const ref = useRef();
   const [sucesss, setSucesss] = useState(null);

@@ -2,9 +2,8 @@ import styled from 'styled-components'
 import { Hero } from './components/Hero'
 import { Me } from './components/Me'
 import { Works } from './components/Works'
-import { Contact } from './components/contact'
+import { Cont } from './components/Cont'
 import bg from './img/background.jpg'
-import { Test } from './components/Test'
 
 
 const Container = styled.div`
@@ -32,7 +31,7 @@ function App() {
       <Hero />
       <Me/>
       <Works/>
-      <Contact/> 
+      <Cont/> 
     </Container>
   )
 }
