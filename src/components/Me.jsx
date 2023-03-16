@@ -103,7 +103,7 @@ export const Me = () => {
             <Subtitle>Who am i??</Subtitle>
           </WtIdo>
           <Desc>
-            I'm a IT stuent that loves cooking, playing videogames and learning new things about programming.
+            I'm a IT student that loves cooking, playing videogames and learning new things about programming.
           </Desc>
 
           <span>
