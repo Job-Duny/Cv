@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import { Hero } from './components/Hero'
-import { Me } from './components/Me'
 import { Works } from './components/Works'
 import { Cont } from './components/Cont'
+import { Me } from './components/Me'
 import bg from './img/background.jpg'
 
 
